@@ -67,7 +67,7 @@ async fn main() {
             }
             let version = env!("CARGO_PKG_VERSION");
             println!("===================================================================");
-            println!("|  Version:{}                   
+            println!("|  Version:{}");
             println!("===================================================================");
         },
         Err(e) => eprintln!("Failed to get hostname: {}", e),
