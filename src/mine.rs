@@ -133,9 +133,9 @@ pub async fn mine(args: MineArgs, url: String , username: String)  {
                 while let Some(msg) = message_receiver.recv().await {
                     match msg {
                         ServerMessage::StartMining(challenge, nonce_range, cutoff) => {
-                            println!("Received start mining message!");
-                            println!("Mining starting...");
-                            println!("Nonce range: {} - {}", nonce_range.start, nonce_range.end);
+                            println!("gas dek!");
+                            println!("losske...");
+                            println!("ra nguruss: {} - {}", nonce_range.start, nonce_range.end);
                             let hash_timer = Instant::now();
                             let nonces_per_thread = 10_000;
 
